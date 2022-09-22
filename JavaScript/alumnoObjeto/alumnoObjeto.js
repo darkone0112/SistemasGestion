@@ -30,6 +30,21 @@ for (i = 0 ; i < 6 ; i++) {
 /* Unir ambos tipos = varios alumnos con varias notas */
 /* ?????? */
 
+let alumnos = []
+let t = window.prompt("Cantidad alumnos")
+for (i = 0;i<t; i++) {
+    let alumno = {
+        nombre : window.prompt("Nombre"),
+        apellidos : window.prompt("apellidos"),
+        notas : [6]
+    }
+    document.write("Nombre del alumno: " + alumno.nombre + " " + alumno.apellidos + "<br/>")
+    for (x = 0 ; x < 6 ; x++) {
+        alumno.notas[i] = window.prompt("Nota " + (x+1))
+        document.write("* Nota " + (i+1) + " " + alumno.notas[x] + "<br/>")
+    }
+    
+}
 
 
 
