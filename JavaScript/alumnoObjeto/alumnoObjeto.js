@@ -38,10 +38,12 @@ for (i = 0;i<t; i++) {
         apellidos : window.prompt("apellidos"),
         notas : [6]
     }
+    alumnos.push(alumno)   
     document.write("Nombre del alumno: " + alumno.nombre + " " + alumno.apellidos + "<br/>")
     for (x = 0 ; x < 6 ; x++) {
-        alumno.notas[i] = window.prompt("Nota " + (x+1))
-        document.write("* Nota " + (i+1) + " " + alumno.notas[x] + "<br/>")
+        alumnos[i].notas[x] = window.prompt("Nota " + (x+1))
+        
+        document.write("* Nota " + (i+1) + " " + alumnos[i].notas[x] + "<br/>")
     }
     
 }
