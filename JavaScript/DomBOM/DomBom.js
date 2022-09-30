@@ -19,14 +19,15 @@ function llamar(){
     var negrita = document.getElementById("negrita").checked;
     var cursiva = document.getElementById("cursiva").checked;
     var tachado = document.getElementById("tachado").checked;
+    var letterStyle = document.getElementById("textred").style
     if (negrita == true) {
-        document.getElementById("textred").style.fontWeight = "bold";
+        letterStyle.fontWeight = "bold";
     }
     if (cursiva == true) {
-        document.getElementById("textred").style.fontStyle= "italic";
+        letterStyle.fontStyle= "italic";
     }
     if (tachado == true) {
-        document.getElementById("textred").style.textDecoration = "line-through";
+        letterStyle.textDecoration = "line-through";
     }
     /* document.write(document.getElementById('name').value); */
     let contenido = document.getElementById("name").value;
