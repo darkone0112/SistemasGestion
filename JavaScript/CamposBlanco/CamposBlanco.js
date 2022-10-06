@@ -10,6 +10,8 @@ function llamar() {
         if (input[i].value == ''){
             error = 1;
             textred[i].style.color = "red";
+        }else{
+            textred[i].style.color = "BLACK";
         }
     }
     if (error == 0) {
