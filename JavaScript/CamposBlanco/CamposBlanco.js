@@ -20,7 +20,7 @@ function llamar() {
             error = 0;
         }
     }
-    alert(error);
+    alert("ojo");
 }
 
     
