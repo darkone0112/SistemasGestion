@@ -3,7 +3,7 @@
         {
             "nombre":"el pepe",
             "apellido": "apellidopepe",
-            "sexo":"si"
+            "sexo":"si",
             "edad": 7,
             "telefonos": [
                 "632199366",
@@ -17,24 +17,26 @@
                 "Cp": "28026"
             },
             "centros":[
-                
-            ]
+                "juan de la cierva","mater","fatima"
+            ],
+            "amigos":[
+                {
+                    "nombre":"juan", 
+                    "apellido": "apellidojuan",
+                    "direccion": "ladireccion",
+                    "edad": 7,
+                    "telefono": "632199366"
+                },
+                { 
+                    "nombre":"eduardo", 
+                    "apellido": "apellidoeduardo",
+                    "direccion": "ladireccion",
+                    "edad": 7,
+                    "telefono": "632199366"
+                 }
 
-            
-        },
-        {
-            "nombre":"juan", 
-            "apellido": "apellidojuan",
-            "direccion": "ladireccion",
-            "edad": 7,
-            "telefono": "632199366"
-        },
-        { 
-            "nombre":"eduardo", 
-            "apellido": "apellidoeduardo",
-            "direccion": "ladireccion",
-            "edad": 7,
-            "telefono": "632199366"
-        }
-        ]
+            ]       
 }
+]
+}   
+
