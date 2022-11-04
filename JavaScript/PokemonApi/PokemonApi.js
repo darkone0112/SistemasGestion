@@ -7,7 +7,7 @@ function generar(){
     .then((data) => {document.getElementById("nombre").innerHTML = data.name
     console.log(data)
     for (let i = 0; i < data.abilities.length; i++) {
-        document.getElementById("habilidad").innerHTML +=data.abilities[i].ability.name + "<br>";
+        document.getElementById("habilidad").innerHTML +=data.abilities[i].ability.name + "<br  >";
     }
     });
 }
