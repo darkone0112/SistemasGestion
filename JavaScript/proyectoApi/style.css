@@ -1,0 +1,11 @@
+body{
+    background-image: url(https://i.pinimg.com/originals/de/41/53/de415334320dd313b583016db0352e93.jpg);
+}
+#all{
+    width: 600px;
+    height: 800px;
+    margin: 0 auto;
+}
+#contenido{
+    margin: 0 auto;
+}
