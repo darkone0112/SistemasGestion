@@ -9,3 +9,10 @@ body{
 #contenido{
     margin: 0 auto;
 }
+h3{
+    text-align: center;
+}
+#tablaTelemetria{
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
